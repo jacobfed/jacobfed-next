@@ -2,8 +2,7 @@ import Nav from "@/components/Nav";
 
 export const metadata = { title: "Resume – Jacob Fedrigon" };
 
-const RESUME_PDF =
-  "https://drive.google.com/file/d/1FNfAkvAMsv0bqTqd9WchzbnR2e4IwjK9/view?usp=sharing";
+const RESUME_PDF = "/Fedrigon2026.pdf";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -75,6 +74,7 @@ export default function Resume() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm border border-gray-300 dark:border-gray-600 px-3 py-1.5 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-colors shrink-0 self-start"
+            download
           >
             ↓ Download PDF
           </a>
