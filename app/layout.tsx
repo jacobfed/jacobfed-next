@@ -11,6 +11,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Jacob Fedrigon",
   description: "Jacob Fedrigon's personal website.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
