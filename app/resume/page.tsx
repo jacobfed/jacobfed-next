@@ -67,9 +67,7 @@ export default function Resume() {
           <div>
             <h1 className="text-4xl font-bold italic">Jacob Fedrigon</h1>
             <div className="mt-2 space-y-0.5 text-sm text-gray-500 dark:text-gray-400">
-              <p>(231) 313-5184</p>
               <p>jacobfedrigon@gmail.com</p>
-              <p>jacobfedrigon.com</p>
             </div>
           </div>
           <a
