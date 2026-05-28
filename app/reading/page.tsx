@@ -1,6 +1,6 @@
 import Nav from "@/components/Nav";
 
-export const metadata = { title: "Books – Jacob Fedrigon" };
+export const metadata = { title: "Reading - Jacob Fedrigon" };
 
 type BookHighlight = {
   title: string;
@@ -75,7 +75,7 @@ export default function Reading() {
   return (
     <main className="min-h-screen pb-16">
       <div className="ml-[12%] max-w-2xl pt-10">
-        <h1 className="text-4xl font-bold italic mb-6">Books</h1>
+        <h1 className="text-4xl font-bold italic mb-6">Reading</h1>
         <Nav />
 
         {/* 2025 */}
